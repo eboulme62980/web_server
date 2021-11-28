@@ -20,7 +20,7 @@ Vous copiez l'intégralité du dossier Apache 24 dans votre dossier web_server s
 		* En ligne 218 on peut configurer le mail de l'administrateur si on le souhaite en modifiant ServerAdmin admin@example.com.
 		* Pour le serveur name en ligne on remplace #ServerName www.example.com:80 par ServerName localhost
 		* Le répertoire du serveur(htdocs) où seront les fichiers est définit en ligne 251 et 252.
-		* Pour démarrer le serveur Apache il faut éxécuter ".\httpd.exe" dans une ligne de commande ouverte dans le dossier bin.
+		* Pour démarrer le serveur Apache il faut éxécuter ".\httpd.exe" dans une ligne de commande ouverte dans le dossier bin(dans mon cas Windows Power Shell en mode administrateur).
 		* Ne pas refermer cette fenêtre sinon le serveur Apache sera stoppé!
 		* On vérifie le fonctionnement du serveur Apache en ouvrant localhost dans son navigateur et si tout est OK on a le message "Apache est fonctionnel" qui correspond à index.html situé dans le répertoire htdocs.
 

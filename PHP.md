@@ -23,7 +23,7 @@ On coupe/colle ce répertoire dans le dossier web_server.
 			* LoadModule php7_module "C:/Web_Server/web_server/php7.4.26/php7apache2_4.dll"
 			* PHPiniDir "C:/Web_Server/web_server/php7.4.26"
 	* Ensuite dans htdocs on transforme index.html en index.php
-	* On lance le serveur Apache avec Windows Power Shell en mode administrateur
+	* On lance le serveur Apache avec Windows Power Shell en mode administrateur.
 	* On ouvre localhost dans son navigateur et on obtient "Apache et PHP sont fonctionnels" en entrant localhost/index.php.
 
 
