@@ -3,7 +3,7 @@ Au vu de la taille du dossier MySQL un .gitigore est ajouté pour éviter de le 
 
 La version de MySql utilisée est mysql-8.0.27-winx64.zip
 
-Les fichiers modifiés sont eux dans le dépot(mysqlTransfert) il suffira de les remplacer dans web_server(l'organisation du dossier reprends leur emplacement réel).
+Les fichiers modifiés sont eux dans le dépot(PourDeplacementMysql) il suffira de les remplacer dans web_server(l'organisation du dossier reprends leur emplacement réel).
 
 On décompresse l'archive téléchargée.
 
