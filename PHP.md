@@ -17,6 +17,14 @@ On coupe/colle ce répertoire dans le dossier web_server.
 	* Dans le dossier PHP on copie php7ts.dll et on le colle dans dans Apache24/bin
 	* On ouvre maintenant httpd.conf dans Apache24/conf 
 	* En fin de fichier on ajoute #PHP 7.4.26
+		* Derrière cette ligne on ajoute
+			* AddHandler application/x-httpd-php .php
+			* AddType application/x_httpd_php .php .html
+			* LoadModule php7_module "C:/Web_Server/web_server/php7.4.26/php7apache2_4.dll"
+			* PHPiniDir "C:/Web_Server/web_server/php7.4.26"
+	* Ensuite dans htdocs on transforme index.html en index.php
+	* On lance le serveur Apache avec Windows Power Shell en mode administrateur
+	* On ouvre localhost dans son navigateur et on obtient "Apache et PHP sont fonctionnels" en entrant localhost/index.php.
 
 
 ## Liens utiles
