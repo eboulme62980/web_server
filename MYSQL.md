@@ -22,7 +22,7 @@ Pour initialiser le dossier data on ouvre un shell sur mysql/bin en administrate
 	* on execute .\mysqld.exe --defaults-file=c:\Web_Server\web_server\mysql\my.ini --initialize
 	* le dossier data a été créé dans le dossier mysql
 
-On va ensuite enlever le mot de passe par défaut pour root créé lors de l'initialisation du dossier data
+* On va ensuite enlever le mot de passe par défaut pour root créé lors de l'initialisation du dossier data
 	* On démarre le serveur mysql en mode console avec .\mysqld.exe --console (devra resté ouvert pour que le serveur demeure actif)
 	* Le mot de passe est stocké dans mysql/data/{nom_du_pc}.err(ouvrez le avec le bloc-notes).
 	* Recherchez dans ce fichier A temporary password is generated for root@localhost: 
