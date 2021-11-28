@@ -1,11 +1,11 @@
 ## Mode d'emploi du serveur
 
-# Procédure d'utilisation
-	* On démarre Apache(1 terminal actif)
-	* On démarre MySql(2 terminaux actifs)
-	* On code dans la joie et la bonne humeur
-	* On arrête Mysql(à partir de la fenêtre où nous nous sommes connectés au serveur)
-	* On arrête Apache
+	* Procédure d'utilisation
+		* On démarre Apache(1 terminal actif)
+		* On démarre MySql(2 terminaux actifs)
+		* On code dans la joie et la bonne humeur
+		* On arrête Mysql(à partir de la fenêtre où nous nous sommes connectés au serveur)
+		* On arrête Apache
 
 
 * Pour démarrer Apache:
