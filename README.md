@@ -10,6 +10,8 @@ Build your own web server (using Apache, MySQL and PHP)
 ## Utilisation
 * Vous clonez le dépôt sur votre pc dans le répertoire Web_Server(préalablement créé sur C:) avec la commande suivante:
 	* git clone https://github.com/eboulme62980/web_server.git web_server
+	* Il vous faut télécharger MySQL mysql-8.0.27-winx64.zip
+	* Suivez les étapes indiquées dans [MYSQL.md](https://github.com/eboulme62980/web_server/blob/main/MYSQL.md)(afin d'installer MySQL dans web_server)
 	* Suivez les instructions de [NOTICE_UTILISATION.md](https://github.com/eboulme62980/web_server/blob/main/NOTICE_UTILISATION.md) pour l'utiliser.
 
 
