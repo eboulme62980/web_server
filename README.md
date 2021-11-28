@@ -7,6 +7,12 @@ Build your own web server (using Apache, MySQL and PHP)
 	* Branche php(Mise en place de PHP)
 	* Branche mysql(installation du serveur MySQL)
 
+## Utilisation
+* Vous clonez le dépôt sur votre pc dans le répertoire Web_Server(préalablement créé sur C:) avec la commande suivante:
+	* git clone https://github.com/eboulme62980/web_server.git web_server
+	* Suivez les instructions de [NOTICE_UTILISATION.md](https://github.com/eboulme62980/web_server/blob/main/NOTICE_UTILISATION.md) pour l'utiliser.
+
+
 ## Choix technologiques
 [Apache](https://httpd.apache.org/)
 
@@ -15,7 +21,7 @@ Build your own web server (using Apache, MySQL and PHP)
 [MySQL](https://www.mysql.com/)
 
 
-## Installation
+## Choix du dossier d'installation
 Le serveur est installé à la racine du C:
 
 Dans le dossier Web_Serveur est créé un dossier web_server qui contiendra la version mise en place dans ce projet.
