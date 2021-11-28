@@ -2,3 +2,8 @@
 [Sun Nov 28 11:14:51.139804 2021] [mpm_winnt:notice] [pid 11108:tid 396] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
 [Sun Nov 28 11:14:51.139804 2021] [core:notice] [pid 11108:tid 396] AH00094: Command line: 'C:\\Web_Server\\web_server\\Apache24\\bin\\httpd.exe -d C:/Web_Server/web_server/Apache24'
 [Sun Nov 28 11:14:51.155241 2021] [mpm_winnt:notice] [pid 11108:tid 396] AH00418: Parent: Created child process 5980
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 5980:tid 408] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 28 11:25:15.032479 2021] [mpm_winnt:notice] [pid 11108:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Nov 28 11:25:17.161843 2021] [mpm_winnt:notice] [pid 5980:tid 408] AH00364: Child: All worker threads have exited.
+[Sun Nov 28 11:25:17.191763 2021] [mpm_winnt:notice] [pid 11108:tid 396] AH00430: Parent: Child process 5980 exited successfully.
