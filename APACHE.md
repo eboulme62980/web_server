@@ -11,6 +11,18 @@ Après installation du package Microsoft je peux extraire Apache de son archive.
 
 Vous copiez l'intégralité du dossier Apache 24 dans votre dossier web_server sur C:.
 
+* Maintenant il faut configurer Apache
+	* On ouvre le fichier httpd.conf situé dans le répertoire conf.
+		* Pour modifier la racine du serveur en ligne 37, on remplace Define SRVROOT "c:/Apache24" en Define SRVROOT "c:/Web_Server/web_server/Apache24".
+		* En ligne 60 Listen 80 correspond au port d'écoute du serveur Apache.
+		* De la ligne 74 à 185 se trouvent les modules d'Apache.
+		* Dans notre cas on enlève le # en début de ligne 162 afin d'avoir le module rewrite activé ce qui donne LoadModule rewrite_module modules/mod_rewrite.so
+		* En ligne 218 on peut configurer le mail de l'administrateur si on le souhaite en modifiant ServerAdmin admin@example.com.
+		* Pour le serveur name en ligne on remplace #ServerName www.example.com:80 par ServerName localhost
+		* Le répertoire du serveur(htdocs) où seront les fichiers est définit en ligne 251 et 252.
+		* Pour démarrer le serveur Apache il faut éxécuter ".\httpd.exe" dans une ligne de commande ouverte dans le dossier bin.
+		* Ne pas refermer cette fenêtre sinon le serveur Apache sera stoppé!
+		* On vérifie le fonctionnement du serveur Apache en ouvrant localhost dans son navigateur et si tout est OK on a le message "Apache est fonctionnel" qui correspond à index.html situé dans le répertoire htdocs.
 
 
 ## Liens utiles
