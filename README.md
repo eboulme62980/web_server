@@ -18,13 +18,13 @@ Le serveur est installé à la racine du C:
 Dans le dossier Web_Serveur est créé un dossier web_server qui contiendra la version mise en place dans ce projet.
 Ce dossier comprendra les répertoires Apache, PHP, MySQL et PhpMYAdmin.
 
-|C:
-|-Web_Server
-	|web_server
-		|Apache
-		|PHP
-		|MySQL
-		|PhpMyAdmin
+	|C:
+	|-Web_Server
+		|web_server	
+			|Apache		
+			|PHP		
+			|MySQL		
+			|PhpMyAdmin
 
 
 ## Liens utiles
