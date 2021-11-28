@@ -3,6 +3,9 @@ Build your own web server (using Apache, MySQL and PHP)
 
 ## Objectif à atteindre
 * Mise en place d'un serveur de développement Apache, PHP et MySQL.
+	* Branche apache(installation serveur APACHE)
+	* Branche php(Mise en place de PHP)
+	* Branche mysql(installation du serveur MySQL)
 
 ## Choix technologiques
 [Apache](https://httpd.apache.org/)
