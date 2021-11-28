@@ -28,4 +28,4 @@ On coupe/colle ce répertoire dans le dossier web_server.
 
 
 ## Liens utiles
-[Installation du serveur Apache](https://www.youtube.com/watch?v=0vS3fOkAbPs)
+[Installation de MySQL](https://www.youtube.com/watch?v=0vS3fOkAbPs)
