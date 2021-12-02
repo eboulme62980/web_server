@@ -1,7 +1,6 @@
 ## Installation PhpMyAdmin
 
-Je vais dans mon cas ignorer le dossier htdocs/phpmymadmin dans git avec un.gitignore
-
+Je vais dans mon cas ignorer le dossier htdocs/phpmymadmin dans git avec un.gitignore (il vous faudra donc télécharger phpMyAdmin par vous même)
 * Installation détaillée
 	* On récupère l'archive de [phpMyAdmin](https://www.phpmyadmin.net/downloads/) (dans mon cas la version phpMyAdmin-5.1.1-all-languages.zip)
 		* On extrait l'archive récupérée
