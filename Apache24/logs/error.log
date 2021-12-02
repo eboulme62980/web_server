@@ -135,3 +135,38 @@ pm_winnt:notice] [pid 1272:tid 472] AH00354: Child: Starting 64 worker threads.
 [Thu Dec 02 10:32:25.518822 2021] [mpm_winnt:notice] [pid 11332:tid 356] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Thu Dec 02 10:32:27.544600 2021] [mpm_winnt:notice] [pid 1272:tid 472] AH00364: Child: All worker threads have exited.
 [Thu Dec 02 10:32:27.669384 2021] [mpm_winnt:notice] [pid 11332:tid 356] AH00430: Parent: Child process 1272 exited successfully.
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host2.example.com] does not exist
+[Thu Dec 02 11:09:19.697967 2021] [mpm_winnt:notice] [pid 5072:tid 668] AH00455: Apache/2.4.51 (Win64) PHP/7.4.26 configured -- resuming normal operations
+[Thu Dec 02 11:09:19.697967 2021] [mpm_winnt:notice] [pid 5072:tid 668] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Thu Dec 02 11:09:19.697967 2021] [core:notice] [pid 5072:tid 668] AH00094: Command line: 'C:\\Web_Server\\web_server\\Apache24\\bin\\httpd.exe -d C:/Web_Server/web_server/Apache24'
+[Thu Dec 02 11:09:19.744791 2021] [mpm_winnt:notice] [pid 5072:tid 668] AH00418: Parent: Created child process 4016
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host2.example.com] does not exist
+Apache server shutdown initiated...
+eb_Server/web_server/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host2.example.com] does not exist
+[Thu Dec 02 11:09:20.284599 2021] [mpm_winnt:notice] [pid 4016:tid 764] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 02 11:19:05.668030 2021] [mpm_winnt:notice] [pid 5072:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 02 11:19:07.698799 2021] [mpm_winnt:notice] [pid 4016:tid 764] AH00364: Child: All worker threads have exited.
+[Thu Dec 02 11:19:07.745339 2021] [mpm_winnt:notice] [pid 5072:tid 668] AH00430: Parent: Child process 4016 exited successfully.
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host2.example.com] does not exist
+[Thu Dec 02 11:20:18.880643 2021] [mpm_winnt:notice] [pid 8588:tid 676] AH00455: Apache/2.4.51 (Win64) PHP/7.4.26 configured -- resuming normal operations
+[Thu Dec 02 11:20:18.880643 2021] [mpm_winnt:notice] [pid 8588:tid 676] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Thu Dec 02 11:20:18.880643 2021] [core:notice] [pid 8588:tid 676] AH00094: Command line: 'C:\\Web_Server\\web_server\\Apache24\\bin\\httpd.exe -d C:/Web_Server/web_server/Apache24'
+[Thu Dec 02 11:20:18.896263 2021] [mpm_winnt:notice] [pid 8588:tid 676] AH00418: Parent: Created child process 10728
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host2.example.com] does not exist
+Apache server shutdown initiated...
+eb_Server/web_server/Apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [C:/Web_Server/web_server/Apache24/docs/dummy-host2.example.com] does not exist
+[Thu Dec 02 11:20:19.333662 2021] [mpm_winnt:notice] [pid 10728:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 02 11:22:38.896261 2021] [mpm_winnt:notice] [pid 8588:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 02 11:22:40.926996 2021] [mpm_winnt:notice] [pid 10728:tid 792] AH00364: Child: All worker threads have exited.
+[Thu Dec 02 11:22:40.942354 2021] [mpm_winnt:notice] [pid 8588:tid 676] AH00430: Parent: Child process 10728 exited successfully.
+[Thu Dec 02 11:22:55.985317 2021] [mpm_winnt:notice] [pid 4472:tid 396] AH00455: Apache/2.4.51 (Win64) PHP/7.4.26 configured -- resuming normal operations
+[Thu Dec 02 11:22:55.985317 2021] [mpm_winnt:notice] [pid 4472:tid 396] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Thu Dec 02 11:22:55.985317 2021] [core:notice] [pid 4472:tid 396] AH00094: Command line: 'C:\\Web_Server\\web_server\\Apache24\\bin\\httpd.exe -d C:/Web_Server/web_server/Apache24'
+[Thu Dec 02 11:22:56.000938 2021] [mpm_winnt:notice] [pid 4472:tid 396] AH00418: Parent: Created child process 12672
+[Thu Dec 02 11:22:57.672423 2021] [mpm_winnt:notice] [pid 12672:tid 664] AH00354: Child: Starting 64 worker threads.
