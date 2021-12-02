@@ -55,8 +55,8 @@ Si je tape à nouveau http://localhost/ je retournerais à la racine initiale du
 			</VirtualHost>
 				
 	* On démarre le serveur(.\httpd.exe --console)
-			* Si on saisit http://localhost/ on arrive bien dans htdocs
-			* Si on saisit http://virtual.local/ on arrive bien dans essai_virtual/public
+		* Si on saisit http://localhost/ on arrive bien dans htdocs
+		* Si on saisit http://virtual.local/ on arrive bien dans essai_virtual/public
 
 
 # Déplacement des directives dans httpd-vhosts.conf
