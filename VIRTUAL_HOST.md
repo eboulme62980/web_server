@@ -20,38 +20,59 @@ Si je tape à nouveau http://localhost/ je retournerais à la racine initiale du
 		* Dans le paramètre du DocumentRoot il faut modifier ".....AllowOverride None...." en "AllowOverride All".
 	* Maintenant nous allons indiquer le serveur virtuel dans httpd.conf(il faut déclarer le local host également afin de ne pas le perdre !).
 		* En fin de fichier j'ajoute 2 hôtes virtuels:
-			* Pour local host
-				` #####    
-				## localhost    
-				#####    
-				<VirtualHost localhost>     
-    			DocumentRoot "${SRVROOT}/htdocs"    
-    			ServerName localhost    
-				</VirtualHost> `
-			* Pour virtual.local 
-				` #####    
-				## virtual.local   
-				#####    
-				<VirtualHost virtual.local>     
-    			DocumentRoot "${SRVROOT}/htdocs/essai_virtual/public/"        
-    			ServerName virtual.local   
-				</VirtualHost> `
-		* On démarre le serveur(.\httpd.exe --console)
+		
+	* Pour localhost
+			
+			#####
+				
+			## localhost
+					
+			#####   
+				
+			<VirtualHost localhost>
+				
+			DocumentRoot "${SRVROOT}/htdocs" 
+				
+			ServerName localhost  
+				
+			</VirtualHost> 
+			
+				
+	* Pour virtual.local
+				
+			#####
+				
+			## virtual.local 
+				
+			#####    
+				
+			<VirtualHost virtual.local>   
+				
+    			DocumentRoot "${SRVROOT}/htdocs/essai_virtual/public/"  
+			
+    			ServerName virtual.local
+			
+			</VirtualHost>
+				
+	* On démarre le serveur(.\httpd.exe --console)
 			* Si on saisit http://localhost/ on arrive bien dans htdocs
 			* Si on saisit http://virtual.local/ on arrive bien dans essai_virtual/public
 
 
 # Déplacement des directives dans httpd-vhosts.conf
-	* Procédure détaillée:
-		* On décommente la ligne #Include conf/extra/httpd-vhosts.conf
-		* On déplace les hôtes virtuels à la fin de httpd-vhosts.conf(on commente les hôtes d'exemple)
-		* On démarre le serveur(.\httpd.exe --console)
-			* Si on saisit http://localhost/ on arrive bien dans htdocs
-			* Si on saisit http://virtual.local/ on arrive bien dans essai_virtual/public
-		* On ajoute également les fichiers de log en modifiant légèrement les directives comme suit
-			* On ajoute dans chacun des Virtual Host(XXXX sera ici remplacé par localhost et virtual:
-			 * `ErrorLog "logs/XXXX-error.log"
-			   CustomLog "logs/XXXX-access.log" common`
+
+* Procédure détaillée:
+	* On décommente la ligne #Include conf/extra/httpd-vhosts.conf
+	* On déplace les hôtes virtuels à la fin de httpd-vhosts.conf(on commente les hôtes d'exemple)
+	* On démarre le serveur(.\httpd.exe --console)
+		* Si on saisit http://localhost/ on arrive bien dans htdocs
+		* Si on saisit http://virtual.local/ on arrive bien dans essai_virtual/public
+	* On ajoute également les fichiers de log en modifiant légèrement les directives comme suit
+		* On ajoute dans chacun des Virtual Host(XXXX sera ici remplacé par localhost et virtual):
+			
+			 	ErrorLog "logs/XXXX-error.log"
+				
+			 	CustomLog "logs/XXXX-access.log" common
 
 		
 
