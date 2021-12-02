@@ -22,6 +22,8 @@ Build your own web server (using Apache, MySQL and PHP)
 
 [MySQL](https://www.mysql.com/)
 
+[phpMyAdmin](https://www.phpmyadmin.net/)
+
 
 ## Choix du dossier d'installation
 Le serveur est installé à la racine du C:
